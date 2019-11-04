@@ -1,0 +1,334 @@
+Script started on Tue 22 Oct 2019 12:13:54 PM KST
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ c[Kd[Kclear
+[3;J[H[2J]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ objdu[K[K[Kjdul[Kmp 0d[K[K-D s[KC[Kc[KC[Kctarget> [K[K?s[K[K? [K[K>ctargoe[K[Ket [K.txt
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ vim s[Kx[Kc
+cookie.txt   ctarget      ctarget.txt  
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ vim ctarget.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;49r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[49;1H"ctarget.txt" 21959L, 1093765C[>c[2;1Hctarget:     file format elf64-x86-64
+
+
+Disassembly of section .interp:
+
+0000000000400238 <.interp>:
+  400238:[7C2f[22C(bad)
+  400239:[7C6c[22Cinsb   (%dx),%es:(%rdi)
+  40023a:[7C69 62 36 34 2f 6c 64    imul   $0x646c2f34,0x36(%rdx),%esp
+  400241:[7C2d 6c 69 6e 75[10Csub    $0x756e696c,%eax
+  400246:[7C78 2d[19Cjs     400275 <_init-0x9d3>
+  400248:[7C78 38[19Cjs     400282 <_init-0x9c6>
+  40024a:[7C36 2d 36 34 2e 73[7Css sub $0x732e3436,%eax
+  400250:[7C6f[22Coutsl  %ds:(%rsi),(%dx)
+  400251:[7C2e 32 00[16Cxor    %cs:(%rax),%al
+
+Disassembly of section .note.ABI-tag:
+
+0000000000400254 <.note.ABI-tag>:
+  400254:[7C04 00[19Cadd    $0x0,%al
+  400256:[7C00 00[19Cadd    %al,(%rax)
+  400258:[7C10 00[19Cadc    %al,(%rax)
+  40025a:[7C00 00[19Cadd    %al,(%rax)
+  40025c:[7C01 00[19Cadd    %eax,(%rax)
+  40025e:[7C00 00[19Cadd    %al,(%rax)
+  400260:[7C47[22Crex.RXB
+  400261:[7C4e 55[19Crex.WRX push %rbp
+  400263:[7C00 00[19Cadd    %al,(%rax)
+  400265:[7C00 00[19Cadd    %al,(%rax)
+  400267:[7C00 02[19Cadd    %al,(%rdx)
+  400269:[7C00 00[19Cadd    %al,(%rax)
+  40026b:[7C00 06[19Cadd    %al,(%rsi)
+  40026d:[7C00 00[19Cadd    %al,(%rax)
+  40026f:[7C00 20[19Cadd    %ah,(%rax)
+  400271:[7C00 00[19Cadd    %al,(%rax)[37;9H...
+
+Disassembly of section .note.gnu.build-id:
+
+0000000000400274 <.note.gnu.build-id>:
+  400274:[7C04 00[19Cadd    $0x0,%al
+  400276:[7C00 00[19Cadd    %al,(%rax)
+  400278:[7C14 00[19Cadc    $0x0,%al
+  40027a:[7C00 00[19Cadd    %al,(%rax)
+  40027c:[7C03 00[19Cadd    (%rax),%eax
+  40027e:[7C00 00[19Cadd    %al,(%rax)
+  400280:[7C47[22Crex.RXB[49;72H1,0-1[9CTop[1;1H[?12l[?25h[?25l[49;72H2,1  [2;1H[?12l[?25h[?25l[49;72H3,0-1[3;1H[?12l[?25h[?25l[49;72H4[4;1H[?12l[?25h[?25l[49;1H[K[49;1H/[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h[?25l[27m[23m[m[H[2J[1;3H400d10:[7Cff 25 4a 33 20 00[7Cjmpq   *0x20334a(%rip)[8C# 604060 <_GLOBAL_OO[2;1HFFSET_TABLE_+0x60>
+  400d16:[7C68 09 00 00 00[10Cpushq  $0x9
+  400d1b:[7Ce9 50 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d20 <alarm@plt>:
+  400d20:[7Cff 25 42 33 20 00[7Cjmpq   *0x203342(%rip)[8C# 604068 <_GLOBAL_OO[8;1HFFSET_TABLE_+0x68>
+  400d26:[7C68 0a 00 00 00[10Cpushq  $0xa
+  400d2b:[7Ce9 40 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d30 <close@plt>:
+  400d30:[7Cff 25 3a 33 20 00[7Cjmpq   *0x20333a(%rip)[8C# 604070 <_GLOBAL_OO[14;1HFFSET_TABLE_+0x70>
+  400d36:[7C68 0b 00 00 00[10Cpushq  $0xb
+  400d3b:[7Ce9 30 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d40 <read@plt>:
+  400d40:[7Cff 25 32 33 20 00[7Cjmpq   *0x203332(%rip)[8C# 604078 <_GLOBAL_OO[20;1HFFSET_TABLE_+0x78>
+  400d46:[7C68 0c 00 00 00[10Cpushq  $0xc
+  400d4b:[7Ce9 20 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d50 <__libc_start_main@plt>:
+  400d50:[7Cff 25 2a 33 20 00[7Cjmpq   *0x20332a(%rip)[8C# 604080 <_GLOBAL_OO[26;1HFFSET_TABLE_+0x80>
+  400d56:[7C68 0d 00 00 00[10Cpushq  $0xd
+  400d5b:[7Ce9 10 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d60 <signal@plt>:
+  400d60:[7Cff 25 22 33 20 00[7Cjmpq   *0x203322(%rip)[8C# 604088 <_GLOBAL_OO[32;1HFFSET_TABLE_+0x88>
+  400d66:[7C68 0e 00 00 00[10Cpushq  $0xe
+  400d6b:[7Ce9 00 ff ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d70 <gethostbyname@plt>:
+  400d70:[7Cff 25 1a 33 20 00[7Cjmpq   *0x20331a(%rip)[8C# 604090 <_GLOBAL_OO[38;1HFFSET_TABLE_+0x90>
+  400d76:[7C68 0f 00 00 00[10Cpushq  $0xf
+  400d7b:[7Ce9 f0 fe ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d80 <__memmove_chk@plt>:
+  400d80:[7Cff 25 12 33 20 00[7Cjmpq   *0x203312(%rip)[8C# 604098 <_GLOBAL_OO[44;1HFFSET_TABLE_+0x98>
+  400d86:[7C68 10 00 00 00[10Cpushq  $0x10
+  400d8b:[7Ce9 e0 fe ff ff[10Cjmpq   400c70 <_init+0x28>
+
+0000000000400d90 <strtol@plt>:[49;72H971,32[9C4%[24;32H[?12l[?25h[?25l[49;74H2,26-32[25;32H[?12l[?25h[?25l[49;74H3[27;32H[?12l[?25h[?25l[49;74H4[28;32H[?12l[?25h[?25l[49;74H3[27;32H[?12l[?25h[?25l[49;74H2[25;32H[?12l[?25h[?25l[49;72H[K[49;1H/[?12l[?25hc[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[27m[23m[m[H[2J[1;3H400e96:[7C68 21 00 00 00[10Cpushq  $0x21
+  400e9b:[7Ce9 d0 fd ff ff[10Cjmpq   400c70 <_init+0x28>
+
+Disassembly of section .plt.got:
+
+0000000000400ea0 <.plt.got>:
+  400ea0:[7Cff 25 52 31 20 00[7Cjmpq   *0x203152(%rip)[8C# 603ff8 <_DYNAMIC++[8;1H0x1d0>
+  400ea6:[7C66 90[19Cxchg   %ax,%ax
+
+Disassembly of section .text:
+
+0000000000400eb0 <_start>:
+  400eb0:[7C31 ed[19Cxor    %ebp,%ebp
+  400eb2:[7C49 89 d1[16Cmov    %rdx,%r9
+  400eb5:[7C5e[22Cpop    %rsi
+  400eb6:[7C48 89 e2[16Cmov    %rsp,%rdx
+  400eb9:[7C48 83 e4 f0[13Cand    $0xfffffffffffffff0,%rsp
+  400ebd:[7C50[22Cpush   %rax
+  400ebe:[7C54[22Cpush   %rsp
+  400ebf:[7C49 c7 c0 20 2e 40 00    mov    $0x402e20,%r8
+  400ec6:[7C48 c7 c1 b0 2d 40 00    mov    $0x402db0,%rcx
+  400ecd:[7C48 c7 c7 b5 11 40 00    mov    $0x4011b5,%rdi
+  400ed4:[7Ce8 77 fe ff ff[10Ccallq  400d50 <__libc_start_main@plt>
+  400ed9:[7Cf4[22Chlt
+  400eda:[7C66 0f 1f 44 00 00[7Cnopw   0x0(%rax,%rax,1)
+
+0000000000400ee0 <deregister_tm_clones>:
+  400ee0:[7Cb8 b7 44 60 00[10Cmov    $0x6044b7,%eax
+  400ee5:[7C55[22Cpush   %rbp
+  400ee6:[7C48 2d b0 44 60 00[7Csub    $0x6044b0,%rax
+  400eec:[7C48 83 f8 0e[13Ccmp    $0xe,%rax
+  400ef0:[7C48 89 e5[16Cmov    %rsp,%rbp
+  400ef3:[7C76 1b[19Cjbe    400f10 <deregister_tm_clones+0x30>
+  400ef5:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  400efa:[7C48 85 c0[16Ctest   %rax,%rax
+  400efd:[7C74 11[19Cje     400f10 <deregister_tm_clones+0x30>
+  400eff:[7C5d[22Cpop    %rbp
+  400f00:[7Cbf b0 44 60 00[10Cmov    $0x6044b0,%edi
+  400f05:[7Cff e0[19Cjmpq   *%rax
+  400f07:[7C66 0f 1f 84 00 00 00    nopw   0x0(%rax,%rax,1)
+  400f0e:[7C00 00
+  400f10:[7C5d[22Cpop    %rbp
+  400f11:[7Cc3[22Cretq
+  400f12:[7C0f 1f 40 00[13Cnopl   0x0(%rax)
+  400f16:[7C66 2e 0f 1f 84 00 00    nopw   %cs:0x0(%rax,%rax,1)
+  400f1d:[7C00 00 00[49;72H1095,33-41     4%[24;41H[?12l[?25h[?25l[49;72H[K[49;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[49;3H[K[49;3H[?12l[?25h[?25l[49;2H[K[49;2H[?12l[?25hq[?25l[?12l[?25h[?25l[49;1H[K[49;1H[?1l>[?12l[?25h[?1049l]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ d[Kc[K./ctarget 
+FAILED: Initialization error: Running on an illegal host [j200]
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ ./ctarget 0q
+FAILED: Initialization error: Running on an illegal host [j200]
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ ./ctarget 0q[K[K-q
+Cookie: 0x47db4e3a
+Type string:^C
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ vi s[Kctarget.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;49r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[49;1H"ctarget.txt" 21959L, 1093765C[>c[2;1Hctarget:     file format elf64-x86-64
+
+
+Disassembly of section .interp:
+
+0000000000400238 <.interp>:
+  400238:[7C2f[22C(bad)
+  400239:[7C6c[22Cinsb   (%dx),%es:(%rdi)
+  40023a:[7C69 62 36 34 2f 6c 64    imul   $0x646c2f34,0x36(%rdx),%esp
+  400241:[7C2d 6c 69 6e 75[10Csub    $0x756e696c,%eax
+  400246:[7C78 2d[19Cjs     400275 <_init-0x9d3>
+  400248:[7C78 38[19Cjs     400282 <_init-0x9c6>
+  40024a:[7C36 2d 36 34 2e 73[7Css sub $0x732e3436,%eax
+  400250:[7C6f[22Coutsl  %ds:(%rsi),(%dx)
+  400251:[7C2e 32 00[16Cxor    %cs:(%rax),%al
+
+Disassembly of section .note.ABI-tag:
+
+0000000000400254 <.note.ABI-tag>:
+  400254:[7C04 00[19Cadd    $0x0,%al
+  400256:[7C00 00[19Cadd    %al,(%rax)
+  400258:[7C10 00[19Cadc    %al,(%rax)
+  40025a:[7C00 00[19Cadd    %al,(%rax)
+  40025c:[7C01 00[19Cadd    %eax,(%rax)
+  40025e:[7C00 00[19Cadd    %al,(%rax)
+  400260:[7C47[22Crex.RXB
+  400261:[7C4e 55[19Crex.WRX push %rbp
+  400263:[7C00 00[19Cadd    %al,(%rax)
+  400265:[7C00 00[19Cadd    %al,(%rax)
+  400267:[7C00 02[19Cadd    %al,(%rdx)
+  400269:[7C00 00[19Cadd    %al,(%rax)
+  40026b:[7C00 06[19Cadd    %al,(%rsi)
+  40026d:[7C00 00[19Cadd    %al,(%rax)
+  40026f:[7C00 20[19Cadd    %ah,(%rax)
+  400271:[7C00 00[19Cadd    %al,(%rax)[37;9H...
+
+Disassembly of section .note.gnu.build-id:
+
+0000000000400274 <.note.gnu.build-id>:
+  400274:[7C04 00[19Cadd    $0x0,%al
+  400276:[7C00 00[19Cadd    %al,(%rax)
+  400278:[7C14 00[19Cadc    $0x0,%al
+  40027a:[7C00 00[19Cadd    %al,(%rax)
+  40027c:[7C03 00[19Cadd    (%rax),%eax
+  40027e:[7C00 00[19Cadd    %al,(%rax)
+  400280:[7C47[22Crex.RXB[49;72H1,0-1[9CTop[1;1H[?12l[?25h[?25l[49;1H[K[49;1H/[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hu[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: tiuch[m[49;31H[K[49;72H1,0-1[9CTop[1;1H[?12l[?25h[?25l[49;1H[K[49;1H/[?12l[?25hy[?25l[?12l[?25h[?25l[49;2H[K[49;2H[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h[?25l[27m[23m[m[H[2J[1;3H4017f6:[7Ceb 0a[19Cjmp    401802 <scramble+0x473>
+  4017f8:[7C89 d1[19Cmov    %edx,%ecx
+  4017fa:[7C8b 0c 8c[16Cmov    (%rsp,%rcx,4),%ecx
+  4017fd:[7C01 c8[19Cadd    %ecx,%eax
+  4017ff:[7C83 c2 01[16Cadd    $0x1,%edx
+  401802:[7C83 fa 09[16Ccmp    $0x9,%edx
+  401805:[7C76 f1[19Cjbe    4017f8 <scramble+0x469>
+  401807:[7C48 8b 74 24 28[10Cmov    0x28(%rsp),%rsi
+  40180c:[7C64 48 33 34 25 28 00    xor    %fs:0x28,%rsi
+  401813:[7C00 00
+  401815:[7C74 05[19Cje     40181c <scramble+0x48d>
+  401817:[7Ce8 d4 f4 ff ff[10Ccallq  400cf0 <__stack_chk_fail@plt>
+  40181c:[7C48 83 c4 38[13Cadd    $0x38,%rsp
+  401820:[7Cc3[22Cretq
+
+0000000000401821 <getbuf>:
+  401821:[7C48 83 ec 38[13Csub    $0x38,%rsp
+  401825:[7C48 89 e7[16Cmov    %rsp,%rdi
+  401828:[7Ce8 7e 02 00 00[10Ccallq  401aab <Gets>
+  40182d:[7Cb8 01 00 00 00[10Cmov    $0x1,%eax
+  401832:[7C48 83 c4 38[13Cadd    $0x38,%rsp
+  401836:[7Cc3[22Cretq
+
+0000000000401837 <touch1>:
+  401837:[7C48 83 ec 08[13Csub    $0x8,%rsp
+  40183b:[7Cc7 05 d7 2c 20 00 01    movl   $0x1,0x202cd7(%rip)[8C# 60451c <vlevee[27;1Hl>
+  401842:[7C00 00 00
+  401845:[7Cbf 75 31 40 00[10Cmov    $0x403175,%edi
+  40184a:[7Ce8 81 f4 ff ff[10Ccallq  400cd0 <puts@plt>
+  40184f:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  401854:[7Ce8 97 04 00 00[10Ccallq  401cf0 <validate>
+  401859:[7Cbf 00 00 00 00[10Cmov    $0x0,%edi
+  40185e:[7Ce8 ed f5 ff ff[10Ccallq  400e50 <exit@plt>
+
+0000000000401863 <touch2>:
+  401863:[7C48 83 ec 08[13Csub    $0x8,%rsp
+  401867:[7C89 fa[19Cmov    %edi,%edx
+  401869:[7Cc7 05 a9 2c 20 00 02    movl   $0x2,0x202ca9(%rip)[8C# 60451c <vlevee[40;1Hl>
+  401870:[7C00 00 00
+  401873:[7C39 3d ab 2c 20 00[7Ccmp    %edi,0x202cab(%rip)[8C# 604524 <cookii[43;1He>
+  401879:[7C75 20[19Cjne    40189b <touch2+0x38>
+  40187b:[7Cbe 98 31 40 00[10Cmov    $0x403198,%esi
+  401880:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  401885:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  40188a:[7Ce8 71 f5 ff ff[10Ccallq  400e00 <__printf_chk@plt>[49;72H1679,19[8C7%[24;19H[?12l[?25h[?25l[49;74H80,13-19[25;19H[?12l[?25h[?25l[49;75H1[26;19H[?12l[?25h[?25l[49;72H[K[49;1H/[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hb[?25l[?12l[?25hu[?25l[?12l[?25hf[?25l[?12l[?25h[?25l[27m[23m[m[H[2J[1;3H401990:[7C85 c0[19Ctest   %eax,%eax
+  401992:[7C74 23[19Cje     4019b7 <touch3+0x43>
+  401994:[7C48 89 da[16Cmov    %rbx,%rdx
+  401997:[7Cbe e8 31 40 00[10Cmov    $0x4031e8,%esi
+  40199c:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  4019a1:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  4019a6:[7Ce8 55 f4 ff ff[10Ccallq  400e00 <__printf_chk@plt>
+  4019ab:[7Cbf 03 00 00 00[10Cmov    $0x3,%edi
+  4019b0:[7Ce8 3b 03 00 00[10Ccallq  401cf0 <validate>
+  4019b5:[7Ceb 21[19Cjmp    4019d8 <touch3+0x64>
+  4019b7:[7C48 89 da[16Cmov    %rbx,%rdx
+  4019ba:[7Cbe 10 32 40 00[10Cmov    $0x403210,%esi
+  4019bf:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  4019c4:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  4019c9:[7Ce8 32 f4 ff ff[10Ccallq  400e00 <__printf_chk@plt>
+  4019ce:[7Cbf 03 00 00 00[10Cmov    $0x3,%edi
+  4019d3:[7Ce8 da 03 00 00[10Ccallq  401db2 <fail>
+  4019d8:[7Cbf 00 00 00 00[10Cmov    $0x0,%edi
+  4019dd:[7Ce8 6e f4 ff ff[10Ccallq  400e50 <exit@plt>
+
+00000000004019e2 <test>:
+  4019e2:[7C48 83 ec 08[13Csub    $0x8,%rsp
+  4019e6:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  4019eb:[7Ce8 31 fe ff ff[10Ccallq  401821 <getbuf>
+  4019f0:[7C89 c2[19Cmov    %eax,%edx
+  4019f2:[7Cbe 38 32 40 00[10Cmov    $0x403238,%esi
+  4019f7:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  4019fc:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  401a01:[7Ce8 fa f3 ff ff[10Ccallq  400e00 <__printf_chk@plt>
+  401a06:[7C48 83 c4 08[13Cadd    $0x8,%rsp
+  401a0a:[7Cc3[22Cretq
+
+0000000000401a0b <save_char>:
+  401a0b:[7C8b 05 33 37 20 00[7Cmov    0x203733(%rip),%eax[8C# 605144 <gets__[35;1Hcnt>
+  401a11:[7C3d ff 03 00 00[10Ccmp    $0x3ff,%eax
+  401a16:[7C7f 49[19Cjg     401a61 <save_char+0x56>
+  401a18:[7C8d 14 40[16Clea    (%rax,%rax,2),%edx
+  401a1b:[7C89 f9[19Cmov    %edi,%ecx
+  401a1d:[7Cc0 e9 04[16Cshr    $0x4,%cl
+  401a20:[7C83 e1 0f[16Cand    $0xf,%ecx
+  401a23:[7C0f b6 b1 60 35 40 00    movzbl 0x403560(%rcx),%esi
+  401a2a:[7C48 63 ca[16Cmovslq %edx,%rcx
+  401a2d:[7C40 88 b1 40 45 60 00    mov    %sil,0x604540(%rcx)
+  401a34:[7C8d 4a 01[16Clea    0x1(%rdx),%ecx
+  401a37:[7C83 e7 0f[16Cand    $0xf,%edi
+  401a3a:[7C0f b6 b7 60 35 40 00    movzbl 0x403560(%rdi),%esi
+  401a41:[7C48 63 c9[16Cmovslq %ecx,%rcx[49;72H1796,48-56     8%[24;56H[?12l[?25h[?25l[49;1H/getbuf[49;72H[K[49;1H[31msearch hit BOTTOM, continuing at TOP[27m[23m[m[H[2J[1;3H4017d0:[7C8b 44 24 20[13Cmov    0x20(%rsp),%eax
+  4017d4:[7C69 c0 35 c4 00 00[7Cimul   $0xc435,%eax,%eax
+  4017da:[7C89 44 24 20[13Cmov    %eax,0x20(%rsp)
+  4017de:[7C8b 44 24 20[13Cmov    0x20(%rsp),%eax
+  4017e2:[7C69 c0 60 6c 00 00[7Cimul   $0x6c60,%eax,%eax
+  4017e8:[7C89 44 24 20[13Cmov    %eax,0x20(%rsp)
+  4017ec:[7Cba 00 00 00 00[10Cmov    $0x0,%edx
+  4017f1:[7Cb8 00 00 00 00[10Cmov    $0x0,%eax
+  4017f6:[7Ceb 0a[19Cjmp    401802 <scramble+0x473>
+  4017f8:[7C89 d1[19Cmov    %edx,%ecx
+  4017fa:[7C8b 0c 8c[16Cmov    (%rsp,%rcx,4),%ecx
+  4017fd:[7C01 c8[19Cadd    %ecx,%eax
+  4017ff:[7C83 c2 01[16Cadd    $0x1,%edx
+  401802:[7C83 fa 09[16Ccmp    $0x9,%edx
+  401805:[7C76 f1[19Cjbe    4017f8 <scramble+0x469>
+  401807:[7C48 8b 74 24 28[10Cmov    0x28(%rsp),%rsi
+  40180c:[7C64 48 33 34 25 28 00    xor    %fs:0x28,%rsi
+  401813:[7C00 00
+  401815:[7C74 05[19Cje     40181c <scramble+0x48d>
+  401817:[7Ce8 d4 f4 ff ff[10Ccallq  400cf0 <__stack_chk_fail@plt>
+  40181c:[7C48 83 c4 38[13Cadd    $0x38,%rsp
+  401820:[7Cc3[22Cretq
+
+0000000000401821 <getbuf>:
+  401821:[7C48 83 ec 38[13Csub    $0x38,%rsp
+  401825:[7C48 89 e7[16Cmov    %rsp,%rdi
+  401828:[7Ce8 7e 02 00 00[10Ccallq  401aab <Gets>
+  40182d:[7Cb8 01 00 00 00[10Cmov    $0x1,%eax
+  401832:[7C48 83 c4 38[13Cadd    $0x38,%rsp
+  401836:[7Cc3[22Cretq
+
+0000000000401837 <touch1>:
+  401837:[7C48 83 ec 08[13Csub    $0x8,%rsp
+  40183b:[7Cc7 05 d7 2c 20 00 01    movl   $0x1,0x202cd7(%rip)[8C# 60451c <vlevee[35;1Hl>
+  401842:[7C00 00 00
+  401845:[7Cbf 75 31 40 00[10Cmov    $0x403175,%edi
+  40184a:[7Ce8 81 f4 ff ff[10Ccallq  400cd0 <puts@plt>
+  40184f:[7Cbf 01 00 00 00[10Cmov    $0x1,%edi
+  401854:[7Ce8 97 04 00 00[10Ccallq  401cf0 <validate>
+  401859:[7Cbf 00 00 00 00[10Cmov    $0x0,%edi
+  40185e:[7Ce8 ed f5 ff ff[10Ccallq  400e50 <exit@plt>
+
+0000000000401863 <touch2>:
+  401863:[7C48 83 ec 08[13Csub    $0x8,%rsp
+  401867:[7C89 fa[19Cmov    %edi,%edx
+  401869:[7Cc7 05 a9 2c 20 00 02    movl   $0x2,0x202ca9(%rip)[8C# 60451c <vlevee[48;1Hl>[49;72H1671,19[8C7%[31msearch hit BOTTOM, continuing at TOP[m[49;72H[K[49;72H1671,19[8C7%[24;19H[?12l[?25h[?25l[?12l[?25h[?25l[49;1H[K[49;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[49;3H[K[49;3H[?12l[?25h[?25l[49;2H[K[49;2H[?12l[?25hq[?25l[?12l[?25h[?25l[49;1H[K[49;1H[?1l>[?12l[?25h[?1049l]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ d[Kls
+cookie.txt  [0m[01;32mctarget[0m  ctarget.txt  [01;32mhex2raw[0m  README  text.txt
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ d[Kc[K./ d[K[Khet[Kx2raw 
+^C
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ ls
+cookie.txt  [0m[01;32mctarget[0m  ctarget.txt  [01;32mhex2raw[0m  README  text.txt
+]0;sp27@j200: ~/sp_hw3/sp_attacklabsp27@j200:~/sp_hw3/sp_attacklab$ e[Kexit d[Ktext.txt
+exit
+bash: exit: text.txt: numeric argument required
+
+Script done on Tue 22 Oct 2019 12:24:56 PM KST
